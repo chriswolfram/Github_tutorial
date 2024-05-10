@@ -12,8 +12,8 @@ np.random.seed(args.seed)
 result = 0
 ##
 
-with open(args.namefile, 'w') as file:
-    # Convert the number to a string and write it to the file
+with open('results/' + args.namefile, 'w') as file:
+#    # Convert the number to a string and write it to the file
     file.write(str(result))
 
 print("The number has been written to " + args.namefile)

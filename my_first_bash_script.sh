@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=array_compute_mean
 #SBATCH --output=logs/array_mean_compute_%A_%a.out
-#SBATCH --error= logs/array_mean_compute_%A_%a.err
+#SBATCH --error=logs/array_mean_compute_%A_%a.err
 #SBATCH --array=1-20
 #SBATCH --time=1:00:00
 #SBATCH --partition=caslake
